@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Suicides by Method in Turkey (2022)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 class="mainTitle">Suicides by Method in Turkey (2022)</h1>
+    <h1 class="subTitle">
+      CS405 Assignment 1: Basic Data Visualization using SVG’s
+    </h1>
+    <h1 class="subTitle">Alp Civan 28408</h1>
+    <div class="chart-container">
+      <svg width="50" height="600" class="left-scale">
+        <text x="25" y="60">2000</text>
+        <text x="25" y="109">1800</text>
+        <text x="25" y="158">1600</text>
+        <text x="25" y="207">1400</text>
+        <text x="25" y="256">1200</text>
+        <text x="25" y="305">1000</text>
+        <text x="25" y="354">800</text>
+        <text x="25" y="403">600</text>
+        <text x="25" y="452">400</text>
+        <text x="25" y="501">200</text>
+        <text x="25" y="550">0</text>
+      </svg>
+
+      <svg width="1050" height="600" id="chart">
+        <rect
+          x="50"
+          y="60"
+          width="50"
+          height="490"
+          class="hanging rect-hover"
+        ></rect>
+        <rect
+          x="150"
+          y="462"
+          width="50"
+          height="89"
+          class="chemicals rect-hover"
+        ></rect>
+        <rect
+          x="250"
+          y="408"
+          width="50"
+          height="142"
+          class="high-place rect-hover"
+        ></rect>
+        <rect
+          x="350"
+          y="542"
+          width="50"
+          height="9"
+          class="drowning rect-hover"
+        ></rect>
+        <rect
+          x="450"
+          y="290"
+          width="50"
+          height="260"
+          class="firearms rect-hover"
+        ></rect>
+        <rect
+          x="550"
+          y="548"
+          width="50"
+          height="2"
+          class="burning rect-hover"
+        ></rect>
+        <rect
+          x="650"
+          y="530"
+          width="50"
+          height="20"
+          class="sharp-instrument rect-hover"
+        ></rect>
+        <rect
+          x="750"
+          y="547"
+          width="50"
+          height="3"
+          class="gas-lpg rect-hover"
+        ></rect>
+        <rect
+          x="850"
+          y="548"
+          width="50"
+          height="2"
+          class="train-vehicle rect-hover"
+        ></rect>
+        <rect
+          x="950"
+          y="525"
+          width="50"
+          height="25"
+          class="other rect-hover"
+        ></rect>
+        <line
+          x1="0"
+          x2="1200"
+          y1="550"
+          y2="550"
+          stroke="black"
+          stroke-width="0.5"
+        />
+
+        <text x="60" y="55" class="label">1,942</text>
+        <text x="165" y="460" class="label">353</text>
+        <text x="265" y="400" class="label">565</text>
+        <text x="370" y="535" class="label">37</text>
+        <text x="460" y="285" class="label">1,036</text>
+        <text x="570" y="548" class="label">9</text>
+        <text x="670" y="528" class="label">81</text>
+        <text x="770" y="545" class="label">14</text>
+        <text x="870" y="548" class="label">6</text>
+        <text x="965" y="520" class="label">103</text>
+      </svg>
+
+      <svg width="50" height="600" class="right-scale">
+        <text x="25" y="50">50%</text>
+        <text x="25" y="100">45%</text>
+        <text x="25" y="150">40%</text>
+        <text x="25" y="200">35%</text>
+        <text x="25" y="250">30%</text>
+        <text x="25" y="300">25%</text>
+        <text x="25" y="350">20%</text>
+        <text x="25" y="400">15%</text>
+        <text x="25" y="450">10%</text>
+        <text x="25" y="500">5%</text>
+        <text x="25" y="550">0%</text>
+      </svg>
+    </div>
+    <div class="legend">
+      <div class="legend-item">
+        <div class="legend-color hanging"></div>
+        <div class="legend-label hanging">Hanging</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color chemicals"></div>
+        <div class="legend-label chemicals">Taking Chemicals</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color high-place"></div>
+        <div class="legend-label high-place">Throwing from a High Place</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color drowning"></div>
+        <div class="legend-label drowning">Drowning</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color firearms"></div>
+        <div class="legend-label firearms">Using Firearms</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color burning"></div>
+        <div class="legend-label burning">By Burning</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color sharp-instrument"></div>
+        <div class="legend-label sharp-instrument">
+          Using a Sharp Instrument
+        </div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color gas-lpg"></div>
+        <div class="legend-label gas-lpg">Using Natural Gas or LPG</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color train-vehicle"></div>
+        <div class="legend-label train-vehicle">
+          Throwing off a Train or Another Vehicle
+        </div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color other"></div>
+        <div class="legend-label other">Other</div>
+      </div>
+    </div>
+    <div class="footer">
+      <div>Total: 4146 Suicides</div>
+    </div>
+  </body>
+</html>
