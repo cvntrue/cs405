@@ -1,0 +1,156 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #adadad2c;
+}
+
+.mainTitle {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: #d62728;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.subTitle {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: #ff7b7b;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+svg {
+  background-color: rgba(231, 255, 19, 0.11);
+  border: 1px solid #ff7777;
+}
+
+.rect-hover:hover {
+  fill: #d62728;
+  transition-delay: 4ms;
+  animation-delay: 4ms;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+.right-scale {
+  font-size: 11px;
+  background-color: rgba(255, 251, 19, 0.308);
+  text-align: left;
+  justify-content: left;
+  font-family: Helvetica, sans-serif;
+}
+
+.left-scale {
+  font-size: 11px;
+  background-color: rgba(255, 251, 19, 0.308);
+  font-family: Helvetica, sans-serif;
+}
+
+.label {
+  font-size: 13px;
+  text-align: center;
+  color: crimson;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #d62728;
+  border-radius: 10%;
+}
+
+.hanging {
+  fill: #5cabec;
+  font-family: Helvetica, sans-serif;
+}
+.chemicals {
+  fill: #ff7f0e;
+}
+.high-place {
+  fill: #2ca02c;
+}
+.drowning {
+  fill: #d62728;
+}
+.firearms {
+  fill: #9467bd;
+}
+.burning {
+  fill: #1100ff;
+}
+.sharp-instrument {
+  fill: #e377c2;
+}
+.gas-lpg {
+  fill: #7e7c7c;
+}
+.train-vehicle {
+  fill: #bcbd22;
+}
+.other {
+  fill: #00fa7d;
+}
+
+.legend-label.hanging {
+  color: #5cabec;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.chemicals {
+  color: #ff7f0e;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.high-place {
+  color: #2ca02c;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.drowning {
+  color: #d62728;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.firearms {
+  color: #9467bd;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.burning {
+  color: #1100ff;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.sharp-instrument {
+  color: #e377c2;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.gas-lpg {
+  color: #7e7c7c;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.train-vehicle {
+  color: #bcbd22;
+  font-family: Helvetica, sans-serif;
+}
+.legend-label.other {
+  color: #00fa7d;
+  font-family: Helvetica, sans-serif;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  font-family: Helvetica, sans-serif;
+}
