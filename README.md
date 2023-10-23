@@ -1,3 +1,2 @@
-#  CS405 Assignment 1: Basic Data Visualization using SVG’s
-Suicides by Method in Turkey (2022)
+#  CS405 Assignments
 Alp Civan 28408
